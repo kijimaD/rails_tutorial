@@ -43,4 +43,5 @@ yarn-debug.log*
 # Ignore db test files.
 db/test.*
 
+# Ignore Spring files.
 # /spring/*.pid
