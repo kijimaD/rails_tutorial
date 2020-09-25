@@ -5,6 +5,8 @@ ruby '2.5.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3', '>= 6.0.3.2'
+
+gem 'bootstrap-sass', '3.4.1'
 # Use Puma as the app server
 gem 'puma', '~> 4.1'
 # Use SCSS for stylesheets
@@ -53,6 +55,7 @@ group :test do
   gem 'minitest-reporters', '1.3.8'
   gem 'guard', '2.16.2'
   gem 'guard-minitest', '2.4.6'
+  gem 'guard-livereload', '~> 2.4', require: false
 end
 
 group :production do
